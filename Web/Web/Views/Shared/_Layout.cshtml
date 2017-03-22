@@ -2,9 +2,33 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
+    <title>@ViewBag.AJ Custom Millwork</title>
+    <meta name="keywords" content="Millwork, Architectural Millwork, Staircases, balustrades, kitchens, cabinets, doors, libraries, basements, wine cellars, custom furniture, Illinois, mantels, ceilings, Keith Czaja, luxury homes, custom stairs" />
+    <meta name="description" content="AJ Millwork ~ Designers and Builders of Fine Architectural Millwork and Staircases" />
+    <meta name="tosca ragnini" content="prairiepathconsulting.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="~/favicon.ico" />
+  <!--  <link rel="icon" type="image/png" href="~/favicon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/touchicons/apple-touch-icon-57-precomposed">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/touchicons/apple-touch-icon-114-precomposed">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/touchicons/apple-touch-icon-72-precomposed">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/touchicons/apple-touch-icon-144-precomposed">-->
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Josefin+Sans:600|Open+Sans:400" rel="stylesheet">
+    <link href='~/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/hover-dropdown-menu.css" rel="stylesheet" />
+    <link href="~/css/revolution-slider.css" rel="stylesheet" />
+    <link href="~/rs-plugin/css/settings.css" rel="stylesheet" />
+    <link href="~/css/animate.min.css" rel="stylesheet" />
+    <link href="~/css/owl/owl.carousel.css" rel="stylesheet" />
+    <link href="~/css/owl/owl.theme.css" rel="stylesheet" />
+    <link href="~/css/owl/owl.transitions.css" rel="stylesheet" />
+    <link href="~/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/style1.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+    <link href="~/css/color.css" rel="stylesheet" />
+    @Scripts.Render("~/css/style.css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -31,12 +55,30 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - AJ Millwork, Inc.</p>
         </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+   
+   
+
+    <script type="text/javascript" src="~/js/hover-dropdown-menu.js"></script>
+    <script type="text/javascript" src="~/js/jquery.hover-dropdown-menu-addon.js"></script>
+    <script type="text/javascript" src="~/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="~/js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="~/js/bootstrapValidator.min.js"></script>
+    <script type="text/javascript" src="~/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="~/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="~/js/revolution-custom.js"></script>
+    <script type="text/javascript" src="~/js/jquery.mixitup.min.js"></script>
+   <script type="text/javascript" src="~/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="~/js/effect.js"></script>
+   <script type="text/javascript" src="~/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery.prettyPhoto.js"></script>
+   <script type="text/javascript" src="~/js/jquery.parallax-1.1.3.js"></script>
     @RenderSection("scripts", required: false)
+
 </body>
 </html>
