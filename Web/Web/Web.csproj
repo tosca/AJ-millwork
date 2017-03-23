@@ -176,8 +176,10 @@
     <Content Include="img\slider\r5.jpg" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\bootstrapValidator.min.js" />
+    <Content Include="js\custom.js" />
     <Content Include="js\effect.js" />
     <Content Include="js\hover-dropdown-menu.js" />
+    <Content Include="js\isotope.min.js" />
     <Content Include="js\jquery.appear.js" />
     <Content Include="js\jquery.easing.1.3.js" />
     <Content Include="js\jquery.hover-dropdown-menu-addon.js" />
@@ -238,8 +240,6 @@
     <Content Include="rs-plugin\js\jquery.themepunch.revolution.js" />
     <Content Include="rs-plugin\js\jquery.themepunch.revolution.min.js" />
     <Content Include="rs-plugin\js\jquery.themepunch.tools.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -249,18 +249,6 @@
     <Content Include="rs-plugin\font\revicons.eot" />
     <Content Include="rs-plugin\font\revicons.ttf" />
     <Content Include="rs-plugin\font\revicons.woff" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -278,6 +266,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\kitchen\" />
+    <Folder Include="img\library\" />
+    <Folder Include="img\stair\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -286,7 +277,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
