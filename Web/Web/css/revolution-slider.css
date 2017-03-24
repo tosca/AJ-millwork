@@ -21,6 +21,7 @@ website:   	http://www.themepunch.com
 	width:100%;
 	position:relative;
 	padding:0;
+    
 
 }
 
@@ -218,8 +219,8 @@ text-shadow:0px 2px 5px rgba(0, 0, 0, 0.5);
 font-weight:600;
 font-size:60px;
 line-height:60px;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Gentium Book Basic', serif;
+
+font-family: 'Gentium Book Basic', serif;font-family: 'Josefin Sans', sans-serif;
 text-transform:uppercase;
 margin:0px;
 border-width:0px;
@@ -1084,35 +1085,7 @@ border-color:rgb(0, 0, 0);
 border-style:none;
 }
 
-.tp-caption.red_bold_bg_20 {
-font-size:20px;
-line-height:20px;
-font-weight:900;
-font-family:Raleway;
-color:rgb(255, 255, 255);
-text-decoration:none;
-background-color:rgb(224, 51, 0);
-padding:5px 8px;
-text-shadow:none;
-border-width:0px;
-border-color:rgb(0, 0, 0);
-border-style:none;
-}
 
-.tp-caption.blue_bold_bg_20 {
-font-size:20px;
-line-height:20px;
-font-weight:900;
-font-family:Raleway;
-color:rgb(255, 255, 255);
-text-decoration:none;
-background-color:rgb(53, 152, 220);
-padding:5px 8px;
-text-shadow:none;
-border-width:0px;
-border-color:rgb(0, 0, 0);
-border-style:none;
-}
 
 .tp-caption.white_bold_bg_20 {
 font-size:20px;

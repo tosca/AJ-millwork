@@ -201,20 +201,6 @@ border-color: #000;
 border-style: none;
 }
 
-.tp-caption.huge_red {
-position:absolute;
-color:rgb(223,75,107);
-font-weight:400;
-font-size:150px;
-line-height:130px;
-font-family: ' Josefin Sans', sans-serif;
-margin:0px;
-border-width:0px;
-border-style:none;
-white-space:nowrap;
-background-color:rgb(45,49,54);
-padding:0px;
-}
 
 .tp-caption.middle_yellow {
 position:absolute;
@@ -375,20 +361,20 @@ border-width:0px;
 border-color:rgb(255, 214, 88);
 border-style:none;
 }
-
+/*** CHANGED BY TOSCA*/
 .tp-caption.very_large_text {
 position:absolute;
 color:#fff;
 text-shadow:0px 2px 5px rgba(0, 0, 0, 0.5);
-font-weight:700;
-font-size:60px;
+font-weight:500;
+font-size:70px;
 line-height:60px;
-font-family:Arial;
+font-family: 'Gentium Book Basic', serif;
 margin:0px;
 border-width:0px;
 border-style:none;
 white-space:nowrap;
-letter-spacing:-2px;
+/*letter-spacing:-2px;*/
 }
 
 .tp-caption.very_big_white {
@@ -1359,7 +1345,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 /********************************
 	-	DOTTED OVERLAYS	-
 *********************************/
-.tp-dottedoverlay						{	background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:4}
+.tp-dottedoverlay						{	background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:4; /* black overlay with 50% transparency */
+    background: rgba(0, 0, 0, 0.5);}
 .tp-dottedoverlay.twoxtwo				{	background:url(../assets/gridtile.png)}
 .tp-dottedoverlay.twoxtwowhite			{	background:url(../assets/gridtile_white.png)}
 .tp-dottedoverlay.threexthree			{	background:url(../assets/gridtile_3x3.png)}

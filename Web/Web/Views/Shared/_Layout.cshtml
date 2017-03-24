@@ -14,8 +14,9 @@
     <link rel="apple-touch-icon" sizes="72x72" href="/assets/touchicons/apple-touch-icon-72-precomposed">
     <link rel="apple-touch-icon" sizes="144x144" href="/assets/touchicons/apple-touch-icon-144-precomposed">-->
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Josefin+Sans:600|Open+Sans:400" rel="stylesheet">
-    <link href='~/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
-    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+   <!-- <link href='~/css/font-awesome.min.css' rel='stylesheet' type='text/css' />-->
+   
+     <link href="~/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/hover-dropdown-menu.css" rel="stylesheet" />
     <link href="~/css/revolution-slider.css" rel="stylesheet" />
     <link href="~/rs-plugin/css/settings.css" rel="stylesheet" />
@@ -28,9 +29,7 @@
     <link href="~/css/style1.css" rel="stylesheet" />
     <link href="~/css/responsive.css" rel="stylesheet" />
     <link href="~/css/color.css" rel="stylesheet" />
-    @Scripts.Render("~/css/style.css")
-    @Scripts.Render("~/bundles/modernizr")
-</head>
+</head>   
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -63,8 +62,6 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
    
-   
-
     <script type="text/javascript" src="~/js/hover-dropdown-menu.js"></script>
     <script type="text/javascript" src="~/js/jquery.hover-dropdown-menu-addon.js"></script>
     <script type="text/javascript" src="~/js/jquery.easing.1.3.js"></script>
@@ -81,7 +78,7 @@
    <script type="text/javascript" src="~/js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="~/js/isotope.min.js"></script>
     <script type="text/javascript" src="~/js/custom.js"></script> 
-   
+
      @RenderSection("scripts", required: false)
 
 </body>
