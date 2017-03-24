@@ -133,7 +133,7 @@ li.mega-menu{
 	right: 0;
 	max-width: 100% !important;
 	min-width: 100% !important;
-	padding: 20px 20px;
+	padding: 15px 20px;
 	margin-left: 0px !important;
 }
 /* Fix The Logo On Right */
@@ -190,8 +190,8 @@ li.mega-menu{
 	z-index: 9999;
 }
 .top-bar-section{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 7px;
 }
 .top-contact{
 	float: left;
@@ -256,45 +256,7 @@ li.mega-menu{
 .top-social-icon.top-social-icon-left{
 	float: left;
 }
-/* ===================================
-	Nav Bar With Shoping Drop Menu 
-==================================== */	
-/* Shoping Cart */
-.shoping-cart .dropdown-menu {
-    left: auto !important;
-    margin-left: 0 !important;
-    max-width: 100% !important;
-    min-width: 270px !important;
-    padding: 0 10px;
-    right: 0 !important;
-    width: 100% !important;
-}
-.shoping-cart a{
-	color: #222;
-}
-.shoping-cart a i{
-	padding-left: 3px;
-	padding-right: 3px;
-}
-.shoping-cart .row{
-	border-bottom: 1px solid;
-	border-color: #e1e1e1;
-	padding: 8px 0;
-}
-.shoping-cart .row:last-child{
-	border-bottom: 0px;
-	padding-bottom: 0px;
-}
-/* Shoping Cart */
-.login-form .dropdown-menu {
-    left: auto !important;
-    margin-left: 0 !important;
-    max-width: 100% !important;
-    min-width: 500px !important;
-    padding: 20px;
-    right: 0 !important;
-    width: 100% !important;
-}
+
 /* Logo in Form */
 .login-form a{
 	color: #222;
@@ -322,10 +284,7 @@ li.search-dropdown a {
 .search-dropdown .dropdown-menu .form-control{
 	width:220px !important;
 }
-/* Language Dropdown */
-.language-dropdown .dropdown-menu.left{
-	left: -92% !important;
-}
+
 /* Sticky Navbar */
 #sticker {
     left: 0;

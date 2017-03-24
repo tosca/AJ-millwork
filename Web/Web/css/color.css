@@ -13,28 +13,17 @@
 .item-box a:hover i,
 .inverse i,
 .item-box.icons-color i,
-.pricing:hover .title,
-.pricing:hover .title a,
 .process-content:hover .title,
-.pricing .price,
 .post-meta  i,
 .meta i,
 .quote blockquote:before,
 .quote blockquote:after,
-.tweet_time a,
-#video-controls a,
 .link-hover-color a:hover,
 .icons-hover-color i:hover,
 .navbar-default .navbar-nav > li.active > a, 
 .navbar-default .navbar-nav > li.active > a:focus, 
 .navbar-default .navbar-nav > li.active > a:hover,
-#page .breadcrumb > .active,
-.timeliner li:hover .timeline-heading h4.subheading,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.sitemap li a:hover,
-.bakery-block:hover .fill-icon,
-.pricing:hover .pricing-icon,
-.travel-block i,
 .side-navbar .top-contact.link-hover-black > a:hover,
 .side-navbar .top-social-icon > a:hover i,
 header .nav .open > a.highlighted,
@@ -46,6 +35,7 @@ header .nav .open > a.highlighted,
 .btn-transparent-color-inverse:hover
 {
 	color: #ffc400;
+    color:#aeafb6;
 }
 
 
@@ -82,20 +72,8 @@ h2.count-number:before,
 .gray-bg i:hover,
 .features-list-item:hover i,
 .bar,
-.pagination > .active > span,
-.pagination > .active > span:hover,
-.blog.timeliner>li:hover .timeline-image,
-.blog.timeliner>li:hover .timeline-icon,
-div.count-number:before,
 .static-color-icons span,
 .fill-icon:after,
-.bakery-menu .nav-tabs > li.active > a, 
-.bakery-menu .nav-tabs > li.active > a:focus, 
-.bakery-menu .nav-tabs > li.active > a:hover,
-.travel-tab .input-group-addon,
-.travel-tab .nav-tabs > .active > a,
-.travel-tab .nav-tabs > .active > a:hover,
-.travel-tab .nav-tabs > .active > a:focus,
 .bootstrap-datetimepicker-widget table td.active, 
 .bootstrap-datetimepicker-widget table td.active:hover,
 .travel-tab .nav-tabs > li a > i ,
@@ -110,6 +88,12 @@ div.count-number:before,
 .overlay-color
 {
 	background-color: #ffc400;
+    background-color: #aeafb6;
+    background-color: #47519b;
+    background-color: #a44400;
+    background-color: #b5b5b9;
+
+
 }
 
 

@@ -10,7 +10,7 @@ author:		themepunch
 email:     	info@themepunch.com
 website:   	http://www.themepunch.com
 -----------------------------------------------------------------------------*/
-
+/*** TOSCA*/
 
 
 /*************************
@@ -361,12 +361,12 @@ border-width:0px;
 border-color:rgb(255, 214, 88);
 border-style:none;
 }
-/*** CHANGED BY TOSCA*/
+/*** TOSCA*/
 .tp-caption.very_large_text {
 position:absolute;
 color:#fff;
 text-shadow:0px 2px 5px rgba(0, 0, 0, 0.5);
-font-weight:500;
+font-weight:400;
 font-size:70px;
 line-height:60px;
 font-family: 'Gentium Book Basic', serif;
