@@ -367,14 +367,14 @@ position:absolute;
 color:#fff;
 text-shadow:0px 2px 5px rgba(0, 0, 0, 0.5);
 font-weight:400;
-font-size:70px;
+font-size:50px;
 line-height:60px;
 font-family: 'Gentium Book Basic', serif;
 margin:0px;
 border-width:0px;
 border-style:none;
 white-space:nowrap;
-/*letter-spacing:-2px;*/
+letter-spacing:2px;
 }
 
 .tp-caption.very_big_white {

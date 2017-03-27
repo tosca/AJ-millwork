@@ -280,9 +280,9 @@ a:focus{
 }
 
 /* Title */
-.title{font-family: 'Gentium Book Basic', serif;
+.title{
 	font-family: 'Josefin Sans', sans-serif;
-     
+     font-family: 'Gentium Book Basic', serif;
 }
 .section-title {
   border-bottom-width: 0px;
@@ -323,7 +323,7 @@ a:focus{
   width: 40px;
 }
 .section-title h2{
-	font-size:28px;
+	/*font-size:28px;*/
 }
 .section-title.text-left h2{
 	text-align:left;
@@ -5927,10 +5927,13 @@ a.black,
 .destination-box5302,
 .top-bar-section.m-height{
 	background-color:#171717 !important;
+    background-color:#171717 !important;
+    background-color:#a89668 !important;
 }
 
 #footer .copyright{
 	background-color:#070707 !important;
+    background-color:#576940 !important;
 }
 .form-box{
 	background:rgba(0,0,0,.4);

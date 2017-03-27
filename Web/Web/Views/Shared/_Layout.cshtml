@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>@ViewBag.AJ Custom Millwork</title>
+    <title>@ViewBag.AJMillork</title>
     <meta name="keywords" content="Millwork, Architectural Millwork, Staircases, balustrades, kitchens, cabinets, doors, libraries, basements, wine cellars, custom furniture, Illinois, mantels, ceilings, Keith Czaja, luxury homes, custom stairs" />
     <meta name="description" content="AJ Millwork ~ Designers and Builders of Fine Architectural Millwork and Staircases" />
     <meta name="tosca ragnini" content="prairiepathconsulting.com" />
@@ -31,31 +31,30 @@
     <link href="~/css/color.css" rel="stylesheet" />
 </head>   
 <body>
-    <!-- Top Bar -->
-    <div id="top-bar" class="top-bar-section top-bar-bg-color">
+    <!-- Top Bar-->
+    <div id="top-bar" class="top-bar-section top-bar-semi-transparent">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <!-- Top Contact -->
                     <div class="top-contact top-contact-right link-hover-black">
-                        <a href="tel:16306597574">
-                            <i class="fa fa-phone"></i> 6306597574
-                        </a>
-                        <a href="mailto:a-jmillwork.com">
-                            <i class="fa fa-envelope"></i> a-jmillwork.com
-                        </a>
-                    </div>
+                         <a href="tel:16306597574">
+                              <i class="fa fa-phone"></i> 630.659.7574
+                           </a>
+                           <a href="mailto:a-jmillwork.com">
+                                <i class="fa fa-envelope"></i> a-jmillwork.com
+                            </a>
+                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </div> 
+  <div class="transparent-header">
     <!-- Sticky Navbar -->
-    <header id="sticker" class="sticky-navigation">
+    <header id="sticker" class="sticky-navigation header-logo-center">
         <!-- Sticky Menu -->
         <div class="sticky-menu relative">
             <!-- navbar -->
-            <div class="navbar navbar-default navbar-bg-light" role="navigation">
+            <div class="navbar navbar-default navbar-bg-transparent" role="navigation">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -67,28 +66,25 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <!-- Logo -->
-
                                 <a class="navbar-brand" href="index.html">
-                                    <img class="site_logo" alt="Site Logo" src="img/logo.png" />
-                                </a>
-                            </div>
+                                    <img class="site_logo" alt="Site Logo" src="~/img/ajLogo-sm.png" />
+                                </a>  </div>
                             <!-- Navbar Collapse -->
                             <div class="navbar-collapse collapse">
                                 <!-- nav -->
                                 <ul class="nav navbar-nav">
                                     <!-- Home  Mega Menu -->
                                     <li class="mega-menu">
-                                        <a href="#">Home</a>
+                                        <a href="~/AJMillwork">Home</a>
                                     </li>
                                     <li class="mega-menu">
-                                        <a href="#">Portfolio</a>
+                                        <a href="~/Portfolio">Portfolio</a>
                                     </li>
                                     <li class="mega-menu">
-                                        <a href="#">Architectural Millwork</a>
+                                        <a href="~/ArchitecturalMillwork">Architectural Millwork</a>
                                     </li>
                                     <li class="mega-menu">
-                                        <a href="#">Contact</a>
+                                        <a href="#contact-us">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -98,12 +94,69 @@
             </div>
         </div>
         </header>
-
+</div>
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - AJ Millwork, Inc.</p>
+
+          
+            <section id="contact-us" class="page-section">
+                <div class="image-bg content-in fixed" data-background="img/bg/lib-14.jpg">
+                    <div class="overlay"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <h2 class="text-color">We welcome your contact</h2>
+
+                            <p class="white">
+                                AJ Millwork, Inc. provides outstanding quality and exceptional value. We check the project through all stages from production to installation in order to ensure quality and satisfaction.
+                            </p>
+                            <hr class="white" />
+                            <h4 class="white">630-659-7574</h4>
+                            <h3 class="text-color">Keith Czaja></h3>
+                            <h4> 
+                                <a class="text-color" href="contact@a-jmillwork.com">contact@a-jmillwork.com</a>
+                            </h4>
+                            <hr class="white" />
+
+                        </div>
+                        <div class="col-md-6">
+                            <p class="form-message" style="display: none;"></p>
+                            <div class="contact-form field-border-bottom">
+                                <!-- Form Begins -->
+                                <form role="form" name="contactform" id="contactform" method="post" action="php/contact-form.php">
+                                    <!-- Field 1 -->
+                                    <div class="input-text form-group">
+                                        <input type="text" name="contact_name" class="input-name form-control" placeholder="Full Name" />
+                                    </div>
+                                    <!-- Field 2 -->
+                                    <div class="input-email form-group">
+                                        <input type="email" name="contact_email" class="input-email form-control" placeholder="Email" />
+                                    </div>
+                                    <!-- Field 3 -->
+                                    <div class="input-email form-group">
+                                        <input type="text" name="contact_phone" class="input-phone form-control" placeholder="Phone" />
+                                    </div>
+                                    <!-- Field 4 -->
+                                    <div class="textarea-message form-group">
+                                        <textarea name="contact_message" class="textarea-message hight-82 form-control" placeholder="Message" rows="2"></textarea>
+                                    </div>
+                                    <!-- Button -->
+                                    <button class="btn btn-default btn-block" type="submit">
+                                        Send Now
+                                        <i class="icon-paper-plane"></i>
+                                    </button>
+                                </form>
+                                <!-- Form Ends -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+   <p>&copy; @DateTime.Now.Year - AJ Millwork, Inc.</p>
         </footer>
     </div>
 
