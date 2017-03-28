@@ -36,6 +36,7 @@ header .nav .open > a.highlighted,
 {
 	color: #ffc400;
     color:#aeafb6;
+   
 }
 
 
@@ -92,7 +93,8 @@ h2.count-number:before,
     background-color: #47519b;
     background-color: #a44400;
     background-color: #b5b5b9;
-
+    background-color: #4b7511; /*olive*/
+     background-color: #5c723c /*olive*/
 
 }
 

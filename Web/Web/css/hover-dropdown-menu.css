@@ -8,16 +8,27 @@ li{
 }
 /* Ends No Need Style */
 /* Custom Navigation */
+.navbar{
+    min-height:40px;
+    border-bottom: 7px solid #000;
+}
+
 .navbar-nav{
 	float: right;
 }
 .navbar-default{
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-.navbar-nav > li {
+
+   
+.navbar-nav > li{
     display: inline-block;
     float: none;
 }
+/*tosca*/
+.navbar-default .navbar-nav > li > a {
+        color: #555;
+    }
 .navbar-nav > li:last-child a{
 	padding-right:0px;
 }
@@ -1003,6 +1014,7 @@ header .navbar-collapse{
 	/* Header Dark to light */
 	.sticky-dark-to-light .navbar-default .navbar-nav > li > a{
 		color: #222;
+       
 	}
 	/* Toggle Extras Menu Header */
 	.header-contact, .header-search, .header-share {
@@ -1314,6 +1326,11 @@ header .navbar-collapse{
 		display:inline !important;
 	}
 
+}
+/*tosca*/
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /* ------------------------
 	MAX 640px 
