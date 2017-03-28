@@ -518,7 +518,7 @@
 *******************************************************************************/
 @media (max-width: 767px) { 
 	.image-bg.content-in {
-		background-repeat: repeat;
+		background-repeat: no-repeat;
 	}
 	.search-dropdown .dropdown-menu{
 		min-width:100% !important;
