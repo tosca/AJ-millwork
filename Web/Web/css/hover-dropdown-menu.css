@@ -456,7 +456,12 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
-	width: 30px;
+	width: 40px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.navbar-brand > img{
+	display: block;
 }
 
 .top-bar-section a{
