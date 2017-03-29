@@ -31,7 +31,8 @@
     <link href="~/css/color.css" rel="stylesheet" />
 </head>   
 <body>
-    <!-- Top Bar-->
+    <div id="page">
+    <!-- Top Bar
     <div id="top-bar" class="top-bar-section  top-bar-bg-color">
         <div class="container">
             <div class="row">
@@ -44,27 +45,27 @@
                 </div>
             </div>
         </div>
-    </div> 
-  <div class="">
+    </div> -->
+
+  <div class="transparent-header light">
     <!-- Sticky Navbar -->
     <header id="sticker" class="sticky-navigation header-logo-center">
         <!-- Sticky Menu -->
         <div class="sticky-menu relative">
             <!-- navbar -->
-            <div class="navbar navbar-default navbar-bg-light" role="navigation">
+            <div class="navbar navbar-default navbar-bg-dark" role="navigation">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="navbar-header">
-                                <!-- Button For Responsive toggle -->
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="index.html">
-                                    <img class="site_logo" alt="Site Logo" src="~/img/ajLogo-sm.png" />
+                                <a class="navbar-brand" href="~/AJMillwork">
+                                    <img alt="AJ Millwork" src="~/img/ajlogo-sm.png" />
                                 </a>  </div>
                             <!-- Navbar Collapse -->
                             <div class="navbar-collapse collapse">
@@ -72,7 +73,7 @@
                                 <ul class="nav navbar-nav">
                                     <!-- Home  Mega Menu -->
                                     <li class="mega-menu">
-                                        <a href="~/AJMillwork">Home</a>
+                                        <a href="~/AJMillwork">AJ Millwork</a>
                                     </li>
                                     <li class="mega-menu">
                                         <a href="~/Portfolio">Portfolio</a>
@@ -90,11 +91,13 @@
                 </div>
             </div>
         </div>
-        </header>
-</div>
+     </header>
+        </div>
+    </div>
+
     <div class="container body-content">
         @RenderBody()
-        <hr />
+    
         <footer>
 
           
@@ -121,11 +124,11 @@
                         </div>
                         <div class="col-md-6">
                             <p class="form-message" style="display: none;"></p>
-                            <div class="contact-form field-border-bottom">
+                            <div class="contact-form field-border-bottom ">
                                 <!-- Form Begins -->
                                 <form role="form" name="contactform" id="contactform" method="post" action="php/contact-form.php">
                                     <!-- Field 1 -->
-                                    <div class="input-text form-group">
+                                    <div class="input-text form-group white">
                                         <input type="text" name="contact_name" class="input-name form-control" placeholder="Full Name" />
                                     </div>
                                     <!-- Field 2 -->

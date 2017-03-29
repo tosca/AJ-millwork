@@ -2594,7 +2594,7 @@ p.tp-caption.button-block a{
 	background-color:#000000;
 }
 .img-overlay{
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
     bottom: 0;
     left: 0;
     opacity: 0;
@@ -5958,16 +5958,16 @@ section,
 .schedule .tab-content > .tab-pane,
 .schedule .tabs .nav-tabs > li,
 .navbar .bg-white.hide-show-content{
-	background-color:#000000;
-    background-color:#333;
-
-
+	background-color:rgba(0,0,0,.0);
+    color:#999;
 }
+
 .faq .panel-group,
 .navbar-default .navbar-nav > li > a.has-submenu,
 .navbar-default.navbar-bg-color .navbar-nav > li > a:focus, 
 .navbar-default.navbar-bg-color .navbar-nav > li > a:hover{
 	background: transparent !important;
+    background-color: transparent !important;
 }
 /* Border */
 .panel-group .panel .panel-heading > .panel-title > a{
@@ -5986,6 +5986,12 @@ hr,
 .page-header{
 	border-color: #555555;
 	box-shadow:none;
+}
+.mixed-grid .nav.black li {
+background-color: #CCCCCC;
+}
+.mixed-grid .nav.black li.active {
+background-color: #7f7f7f;
 }
 .border-tb{	
     border-bottom: 1px solid #000000;
