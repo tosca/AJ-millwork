@@ -5651,7 +5651,9 @@ ul.tags li{
 }
 .pad.mixed-grid .grid-item{
 	padding:8px;
+    padding:20px; /*tosca*/
 }
+
 .pad.mixed-grid .img-overlay{
 	margin:25px;
 }

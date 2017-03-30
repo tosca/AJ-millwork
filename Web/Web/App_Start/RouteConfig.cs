@@ -32,6 +32,12 @@ namespace Web
                );
 
             routes.MapRoute(
+              "Design",
+              "Design",
+              new { controller = "Home", action = "Design" }
+              );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "AJMillwork", id = UrlParameter.Optional }
