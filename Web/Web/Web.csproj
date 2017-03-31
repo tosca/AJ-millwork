@@ -176,6 +176,52 @@
     <Content Include="img\ajlogo-sm.png" />
     <Content Include="img\ajLogo.png" />
     <Content Include="img\bg\lib-14.jpg" />
+    <Content Include="img\cabinet\cab-01.jpg" />
+    <Content Include="img\cabinet\cab-02.jpg" />
+    <Content Include="img\cabinet\cab-03.jpg" />
+    <Content Include="img\cabinet\cab-04.jpg" />
+    <Content Include="img\cabinet\cab-05.jpg" />
+    <Content Include="img\cabinet\cab-06.jpg" />
+    <Content Include="img\cabinet\cab-07.jpg" />
+    <Content Include="img\cabinet\cab-08.jpg" />
+    <Content Include="img\cabinet\cab-09.jpg" />
+    <Content Include="img\cabinet\cab-10.jpg" />
+    <Content Include="img\cabinet\cab-11.jpg" />
+    <Content Include="img\cabinet\cab-12.jpg" />
+    <Content Include="img\cabinet\cab-13.jpg" />
+    <Content Include="img\cabinet\cab-14.jpg" />
+    <Content Include="img\cabinet\cab-15.jpg" />
+    <Content Include="img\cabinet\cab-16.jpg" />
+    <Content Include="img\cabinet\cab-17.JPG" />
+    <Content Include="img\cabinet\cab-18.jpg" />
+    <Content Include="img\cabinet\cab-19.jpg" />
+    <Content Include="img\cabinet\cab-20.jpg" />
+    <Content Include="img\cabinet\cab-21.jpg" />
+    <Content Include="img\cabinet\cab-22.JPG" />
+    <Content Include="img\cabinet\cab-23.jpg" />
+    <Content Include="img\cabinet\cab-24.jpg" />
+    <Content Include="img\cabinet\cab-25.jpg" />
+    <Content Include="img\cabinet\cab-26.jpg" />
+    <Content Include="img\cabinet\cab-27.jpg" />
+    <Content Include="img\cabinet\cab-28.jpg" />
+    <Content Include="img\cabinet\cab-29.jpg" />
+    <Content Include="img\cabinet\cab-30.jpg" />
+    <Content Include="img\cabinet\cab-31.jpg" />
+    <Content Include="img\door\door-01.jpg" />
+    <Content Include="img\door\919E.jpg" />
+    <Content Include="img\door\door-02.jpg" />
+    <Content Include="img\door\door-03.jpg" />
+    <Content Include="img\door\door-04.jpg" />
+    <Content Include="img\door\door-05.jpg" />
+    <Content Include="img\door\door-06.jpg" />
+    <Content Include="img\door\door-07.jpg" />
+    <Content Include="img\door\door-08.jpg" />
+    <Content Include="img\door\door-09.jpg" />
+    <Content Include="img\door\door-10.jpg" />
+    <Content Include="img\door\door-11.jpg" />
+    <Content Include="img\door\door-12.jpg" />
+    <Content Include="img\door\door-13.jpg" />
+    <Content Include="img\door\door-14.jpg" />
     <Content Include="img\kitchen\DSC_0004.jpg" />
     <Content Include="img\kitchen\DSC_0006.jpg" />
     <Content Include="img\kitchen\DSC_0008.jpg" />
@@ -340,6 +386,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\basement\" />
+    <Folder Include="img\furniture\" />
+    <Folder Include="img\millwork\" />
+    <Folder Include="img\theater\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
