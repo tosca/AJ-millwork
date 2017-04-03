@@ -36,10 +36,10 @@ header .nav .open > a.highlighted,
 {
 	color: #ffc400;
     color:#aeafb6;
-   
-}
-
-
+   color: #e5b007;
+   color: #e8b50b;
+   color: #c6a002;
+   color: #dcc205;
 
 
 
@@ -94,7 +94,7 @@ h2.count-number:before,
     background-color: #a44400;
     background-color: #b5b5b9;
     background-color: #4b7511; /*olive*/
-     background-color: #5c723c /*olive*/
+     background-color: #aeafb6; 
 
 }
 
@@ -168,7 +168,7 @@ h2.count-number:before,
 @media (min-width: 992px) { 
 
 	.navbar-bg-color{
-		background-color: #ffc400;
+		background-color: #aeafb6;
 	}
 
 }
@@ -178,6 +178,7 @@ h2.count-number:before,
 .color-switch .owl-controls .owl-page span,
 .tags li a{
  background-color:rgba(34, 79, 37, 0.77);
+ background-color:rgba(128, 128, 128, 0.77);
 }
 
 
@@ -185,14 +186,17 @@ h2.count-number:before,
 /* Content Select In Browser */
 
 ::-moz-selection {
-    background: #ffc400;
-    color: #000000;
+    background: #aeafb6;
+    color: #e5b007;
+    color: #e8b50b;
     text-shadow: none;
 }
 
 ::selection {
-    background: #ffc400;
-    color: #a4003a;
+    background: #aeafb6;
+    color:#e5b007;
+    color: #e8b50b;
+    color:#edd667;
     text-shadow: none;
 }
 

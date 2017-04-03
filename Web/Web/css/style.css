@@ -2599,7 +2599,7 @@ p.tp-caption.button-block a{
 	background-color:#000000;
 }
 .img-overlay{
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
     bottom: 0;
     left: 0;
     opacity: 0;
@@ -4917,6 +4917,8 @@ ul.tags li{
 }
 .pad.mixed-grid  .grid-col-6 .img-overlay{
     margin: 14px;
+   margin:0px 0px;
+	
 }
 .pad.mixed-grid .grid-col-6 .item .img-overlay{
     margin: 7px;
@@ -4934,20 +4936,24 @@ ul.tags li{
 
 .pad.mixed-grid{
 	margin:0 -15px;
+  
 }
 .pad.mixed-grid .grid-item{
 	padding:8px;
-    padding:20px; /*tosca*/
+    padding:10px;
 }
 
 .pad.mixed-grid .img-overlay{
 	margin:25px;
+  
 }
-.pad.mixed-grid  .item .img-overlay{
+.pad.mixed-grid .item .img-overlay{
 	margin:17px;
+    margin: 20px;
 }
 .pad.mixed-grid .figcaption{
 	padding:15px 30px;
+    padding:15px 30px;  /*tosca*/
 }
 /*Hosting Page*/
 #domain-search.page-section{
