@@ -1219,7 +1219,22 @@ i.fa-1x{
 }
 .image-bg.content-in{
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: TOP center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50px;
+  z-index: 0;
+  min-height:unset;
+  
+}
+.image-bg.content-left{
+  background-repeat: no-repeat;
+  background-position: left top;
   background-size: cover;
   bottom: 0;
   left: 0;

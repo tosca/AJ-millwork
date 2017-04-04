@@ -39,7 +39,7 @@ header .nav .open > a.highlighted,
    color: #e5b007;
    color: #e8b50b;
    color: #c6a002;
-   color: #dcc205;
+   color: #bda875;
 
 
 
@@ -86,15 +86,14 @@ h2.count-number:before,
 .btn-transparent-color:hover,
 .btn-transparent-color-inverse,
 .image-bg .overlay-color,
-.overlay-color
-{
+.overlay-color{
 	background-color: #ffc400;
     background-color: #aeafb6;
     background-color: #47519b;
     background-color: #a44400;
     background-color: #b5b5b9;
     background-color: #4b7511; /*olive*/
-     background-color: #aeafb6; 
+     background-color: #bda875; 
 
 }
 
@@ -187,6 +186,7 @@ h2.count-number:before,
 
 ::-moz-selection {
     background: #aeafb6;
+    background: #bda875;
     color: #e5b007;
     color: #e8b50b;
     text-shadow: none;
@@ -194,6 +194,7 @@ h2.count-number:before,
 
 ::selection {
     background: #aeafb6;
+    background: #bda875;
     color:#e5b007;
     color: #e8b50b;
     color:#edd667;
