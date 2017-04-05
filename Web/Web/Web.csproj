@@ -238,6 +238,9 @@
     <Content Include="img\door\door-12.jpg" />
     <Content Include="img\door\door-13.jpg" />
     <Content Include="img\door\door-14.jpg" />
+    <Content Include="img\features\feature-01.png" />
+    <Content Include="img\features\feature-02.png" />
+    <Content Include="img\features\sq-01.jpg" />
     <Content Include="img\furniture\furniture-01.jpg" />
     <Content Include="img\furniture\furniture-02.jpg" />
     <Content Include="img\furniture\furniture-03.jpg" />

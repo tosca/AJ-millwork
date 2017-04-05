@@ -3,7 +3,7 @@
 	        COLOR 
 
 =============================== */
-.btn-link,.btn-link:hover,
+.btn-link, .btn-link:hover,
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
 .navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
 .navbar.navbar-bg-light .navbar-nav > li > a.highlighted,
@@ -14,14 +14,14 @@
 .inverse i,
 .item-box.icons-color i,
 .process-content:hover .title,
-.post-meta  i,
+.post-meta i,
 .meta i,
 .quote blockquote:before,
 .quote blockquote:after,
 .link-hover-color a:hover,
 .icons-hover-color i:hover,
-.navbar-default .navbar-nav > li.active > a, 
-.navbar-default .navbar-nav > li.active > a:focus, 
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:focus,
 .navbar-default .navbar-nav > li.active > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .side-navbar .top-contact.link-hover-black > a:hover,
@@ -32,23 +32,21 @@ header .nav .open > a.highlighted,
 .btn-transparent-black-inverse,
 .btn-transparent-white-inverse,
 .btn-transparent-color,
-.btn-transparent-color-inverse:hover
-{
-	color: #ffc400;
-    color:#aeafb6;
-   color: #e5b007;
-   color: #e8b50b;
-   color: #c6a002;
-   color: #bda875;
-
-
-
+.btn-transparent-color-inverse:hover {
+    color: #ffc400;
+    color: #aeafb6;
+    color: #e5b007;
+    color: #e8b50b;
+    color: #c6a002;
+    color: #bda875;
+}
 /* ============================
 
 
 	       BACKGROUND COLOR 
 
 =============================== */
+
 .top-bar-section.top-bar-bg-color,
 .product-count,
 .nav > li > a:focus, .nav > li > a:hover,
@@ -56,7 +54,7 @@ header .nav .open > a.highlighted,
 .btn-default,
 .section-title h1:before,
 .section-title h2:before,
-.special-feature .mask-top h4:before ,
+.special-feature .mask-top h4:before,
 .s-feature-box,
 .s-feature-box:hover .mask-bottom,
 .progress-bar,
@@ -77,27 +75,15 @@ h2.count-number:before,
 .fill-icon:after,
 .bootstrap-datetimepicker-widget table td.active, 
 .bootstrap-datetimepicker-widget table td.active:hover,
-.travel-tab .nav-tabs > li a > i ,
-.hotel-tab .nav-tabs > li.active > a, 
-.hotel-tab .nav-tabs > li.active > a:focus, 
-.hotel-tab .nav-tabs > li.active > a:hover,
 .navbar-default .navbar-toggle .icon-bar,
 .circle.count-number.border-color:before,
 .btn-transparent-color:hover,
 .btn-transparent-color-inverse,
 .image-bg .overlay-color,
 .overlay-color{
-	background-color: #ffc400;
-    background-color: #aeafb6;
-    background-color: #47519b;
-    background-color: #a44400;
-    background-color: #b5b5b9;
-    background-color: #4b7511; /*olive*/
-     background-color: #bda875; 
-
+    background-color: #4b7511;
+    background-color: #bda875; 
 }
-
-
 
 /* ============================
 
