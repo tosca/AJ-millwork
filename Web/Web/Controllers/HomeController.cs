@@ -13,7 +13,7 @@ namespace Web.Controllers
             return View();
         }
 
-        public ActionResult ArchitecturalMillwork()
+        public ActionResult Services()
         {
             return View();
         }
@@ -23,14 +23,33 @@ namespace Web.Controllers
             return View();
         }
 
-        public ActionResult Design()
+        public ActionResult Designer()
         {
             return View();
         }
 
+  
+
+
+        [HttpGet]
         public ActionResult Contact()
-        {         
+        {
+            ViewBag.Message = "Your contact page.";
+
             return View();
         }
+
+
+        public ActionResult ContactSubmited()
+        {
+
+            var result = new FilePathResult("~/Views/Home/AJMillwork.html", "text/html");
+            return result;
+
+        }
+
+
+
+
     }
 }

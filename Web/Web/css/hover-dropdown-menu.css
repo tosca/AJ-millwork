@@ -171,7 +171,7 @@ li.mega-menu{
 }
 /* Set Navbar Background-color dark */
 .navbar.navbar-bg-dark{
-	background-color: #222;
+	background-color: #000;
 }
 .navbar.navbar-bg-dark .navbar-nav > li > a{
 	color: #fff;
@@ -456,10 +456,9 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
-	width: 180px;
-    padding-top: 5px;
+	width: 220px;
+    padding: 7px;
     padding-left: 10px;
-    padding-bottom: 5px;
 }
 .navbar-brand > img{
 	display: block;

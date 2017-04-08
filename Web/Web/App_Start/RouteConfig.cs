@@ -26,22 +26,31 @@ namespace Web
                );
 
             routes.MapRoute(
-               "ArchitecturalMillwork",
-               "ArchitecturalMillwork",
-               new { controller = "Home", action = "ArchitecturalMillwork" }
+               "Services",
+               "Services",
+               new { controller = "Home", action = "Services" }
                );
 
             routes.MapRoute(
-              "Design",
-              "Design",
-              new { controller = "Home", action = "Design" }
+              "Designer",
+              "Designer",
+              new { controller = "Home", action = "Designer" }
               );
+
+            routes.MapRoute(
+             "Contact",
+             "Contact",
+             new { controller = "Shared", action = "Layout#Contact" }
+             );
 
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "AJMillwork", id = UrlParameter.Optional }
             );
+
+
+
         }
     }
 }

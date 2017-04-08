@@ -162,6 +162,7 @@
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\hover-dropdown-menu.css" />
+    <Content Include="css\kenburns.css" />
     <Content Include="css\owl\owl.carousel.css" />
     <Content Include="css\owl\owl.theme.css" />
     <Content Include="css\owl\owl.transitions.css" />
@@ -240,7 +241,14 @@
     <Content Include="img\door\door-14.jpg" />
     <Content Include="img\features\feature-01.png" />
     <Content Include="img\features\feature-02.png" />
-    <Content Include="img\features\sq-01.jpg" />
+    <Content Include="img\features\feature-03.png" />
+    <Content Include="img\features\feature-04.png" />
+    <Content Include="img\features\feature-10.png" />
+    <Content Include="img\features\feature-5.png" />
+    <Content Include="img\features\feature-6.png" />
+    <Content Include="img\features\feature-7.png" />
+    <Content Include="img\features\feature-8.png" />
+    <Content Include="img\features\feature-9.png" />
     <Content Include="img\furniture\furniture-01.jpg" />
     <Content Include="img\furniture\furniture-02.jpg" />
     <Content Include="img\furniture\furniture-03.jpg" />
@@ -262,14 +270,14 @@
     <Content Include="img\library\lib-04.jpg" />
     <Content Include="img\library\lib-01.jpg" />
     <Content Include="img\library\lib-02.jpg" />
-    <Content Include="img\library\lib-14.JPG" />
+    <Content Include="img\library\lib-14.jpg" />
     <Content Include="img\library\lib-41.jpg" />
     <Content Include="img\library\lib-31.jpg" />
     <Content Include="img\library\lib-03.jpg" />
-    <Content Include="img\library\lib-13.JPG" />
+    <Content Include="img\library\lib-13.jpg" />
     <Content Include="img\library\lib-21.jpg" />
-    <Content Include="img\library\lib-12.JPG" />
-    <Content Include="img\library\lib-11.JPG" />
+    <Content Include="img\library\lib-12.jpg" />
+    <Content Include="img\library\lib-11.jpg" />
     <Content Include="img\millwork\0D52669D-6357-4677-AE4E.jpg" />
     <Content Include="img\millwork\13647FD6-4929-417C-AE89.JPG" />
     <Content Include="img\millwork\297D52EA-2042-44FC-AFE5.jpg" />
@@ -297,10 +305,7 @@
     <Content Include="img\millwork\F9D5ABE1-706C-428F-B2AF.JPG" />
     <Content Include="img\millwork\FF182A4C-913E-4088-875D.jpg" />
     <Content Include="img\millwork\FF48BBFE-7377-4260-8545.jpg" />
-    <Content Include="img\slider\r5.jpg" />
-    <Content Include="img\slider\slide-01.jpg" />
     <Content Include="img\slider\slide-02.jpg" />
-    <Content Include="img\slider\slide-03.jpg" />
     <Content Include="img\slider\slide-04.jpg" />
     <Content Include="img\slider\slide-10.jpg" />
     <Content Include="img\stair\stair-07.jpg" />
@@ -343,6 +348,8 @@
     <Content Include="js\bootstrapValidator.min.js" />
     <Content Include="js\custom.js" />
     <Content Include="js\effect.js" />
+    <Content Include="js\equalheights-init.js" />
+    <Content Include="js\equalheights.js" />
     <Content Include="js\hover-dropdown-menu.js" />
     <Content Include="js\isotope.min.js" />
     <Content Include="js\jquery.appear.js" />
@@ -353,6 +360,7 @@
     <Content Include="js\jquery.parallax-1.1.3.js" />
     <Content Include="js\jquery.prettyPhoto.js" />
     <Content Include="js\jquery.sticky.js" />
+    <Content Include="js\kenburns.js" />
     <Content Include="js\modernizr.js" />
     <Content Include="js\owl.carousel.min.js" />
     <Content Include="js\revolution-custom.js" />
@@ -432,7 +440,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\ArchitecturalMillwork.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\AJMillwork.cshtml" />
   </ItemGroup>
@@ -448,7 +456,7 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\Portfolio.cshtml" />
-    <Content Include="Views\Home\Design.cshtml" />
+    <Content Include="Views\Home\Designer.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1980,7 +1980,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .tp-leftarrow.preview4 .tp-arr-allwrapper	{	left:0px}
 .tparrows.preview4 .tp-arr-iwrapper			{	position: relative}
 
-.tparrows.preview4 .tp-arr-imgholder 		{	display:block;background-size:cover; background-position:center center;width:180px;height:110px;
+.tparrows.preview4 .tp-arr-imgholder 		{	
+    display:block;background-size:cover; background-position:center center;width:180px;height:110px;
 												position:relative;top:0px;
 
 												-webkit-backface-visibility: hidden;
@@ -1991,7 +1992,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 											}
 
 
-.tparrows.preview4 .tp-arr-imgholder2 		{	display:block;background-size:cover; background-position:center center; width:180px;height:110px;
+.tparrows.preview4 .tp-arr-imgholder2 		{	
+    display:block;background-size:cover; background-position:center center; width:180px;height:110px;
 												position:absolute;top:0px; left:180px;
 												-webkit-backface-visibility: hidden;
 												backface-visibility: hidden;
@@ -2003,7 +2005,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 
 
 
-.tparrows.preview4 .tp-arr-titleholder		{	display:block; font-size:12px; line-height:25px; padding:0px 10px;text-align:left;color:#fff; position: relative;
+.tparrows.preview4 .tp-arr-titleholder		{	
+    display:block; font-size:12px; line-height:25px; padding:0px 10px;text-align:left;color:#fff; position: relative;
 												background: #000;
 												color: #FFF;
 												text-transform: uppercase;

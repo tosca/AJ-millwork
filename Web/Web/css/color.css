@@ -107,6 +107,13 @@ h2.count-number:before,
 {
 	border-color: #b5b5b9;
 }
+/*tosca*/
+.features-list-item .features-content h5{
+    color:rgba(128, 128, 128, 0.77);
+    margin-top: 20px;
+}
+
+
 
 .bottom-arrow:before{
 	border-top-color: #ffc400;
