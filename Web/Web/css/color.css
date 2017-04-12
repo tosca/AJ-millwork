@@ -110,7 +110,8 @@ h2.count-number:before,
 /*tosca*/
 .features-list-item .features-content h5{
     color:rgba(128, 128, 128, 0.77);
-    margin-top: 20px;
+    color:rgba(91, 88, 88, 0.79)
+  /*  margin-top: 20px;*/
 }
 
 

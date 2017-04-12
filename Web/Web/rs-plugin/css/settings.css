@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------
 
 	-	Revolution Slider 4.1 Captions -
-
+    
 		Screen Stylesheet
 
 version:   	1.4.5
@@ -1179,6 +1179,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .fullwidthbanner-container .fullwidthbanner{
 	width:100%;
 	position:relative;
+    height: 800px; /*tosca*/
 }
 
 
