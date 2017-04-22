@@ -151,12 +151,14 @@ h3 {
   font-size: 32px;
   font-weight: 500;
   text-transform:capitalize;
+  font-family: 'Gentium Book Basic', serif;
 }
 h4 {
   font-size: 24px;
   font-weight: 500;
   line-height:1.7;
   text-transform:capitalize;
+  font-family: 'Gentium Book Basic', serif;
 }
 h5 {
   font-size: 18px;
@@ -306,7 +308,7 @@ a:focus{
 	font-size: 35px;	
     font-weight: normal;
     margin: 0 0 12px;
-    padding: 14px 0;
+    padding: 12px 0 6px 0;
 
 }
 .section-title h3{
@@ -315,8 +317,8 @@ a:focus{
 	font-size: 32px;
      font-family: 'Gentium Book Basic', serif;	
     font-weight: normal;
-    margin: 0 0 8px;
-    padding: 6px 0;
+    margin: 0 0 18px;
+    padding: 2px 0 6px 0;
 
 }
 .section-title.text-left h3,
@@ -382,7 +384,7 @@ section,
 .page-section{
 	padding:75px 0;    
 	display: block;
-    overflow: hidden;
+   /* overflow: hidden;*/
     position: relative;
     width: 100%;
 }
@@ -1597,7 +1599,8 @@ i,
 .tparrows { 
 -webkit-border-radius: 50%;
 border-radius:  50%;
- background: rgba(0,0,0,0.9) !important;
+ /*background: rgba(0, 0, 0, 0.3) !important;*/
+
 }
 .tp-banner{
 	z-index:0;
@@ -2456,7 +2459,7 @@ p.tp-caption.button-block a{
 
 .work-section .nav li,
 .mixed-grid .nav li{
-	padding:5px 10px;
+	padding:1px 8px;
 	margin:10px 14px 20px 14px;
 	border-radius: 3px;
 	border:1px solid transparent;
@@ -2539,6 +2542,9 @@ p.tp-caption.button-block a{
 	position:relative;
 	background-color:#000000;
 }
+#work .page-section{
+    width: 100% !important; 
+}
 /*.grid-item{
      position: absolute;
     left: 20%;
@@ -2547,16 +2553,16 @@ p.tp-caption.button-block a{
 }*/
 
 .grid-item:hover{
-    -moz-transform: scale(1.5);
-	-webkit-transform: scale(1.5);
-	-o-transform: scale(1.5);
-	-ms-transform: scale(1.5);
-	transform: scale(1.5);
+    -moz-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
     opacity: 1;
-   /* position:center;*/
+   /* position:center; tosca*/
     transition: all 0.3s ease-out 0s;
      border:none !important;
-	box-shadow:0 0 20px rgba(0, 0, 0, 0.7) inset !important;
+	/*box-shadow:0 0 20px rgba(0, 0, 0, 0.7) inset !important;*/
 	z-index:99 !important;
 }
 
@@ -3907,7 +3913,7 @@ background-color: #7f7f7f;
 }
 .mixed-grid .nav.black li.active {
 background-color: #000;
-border: 5px solid #171717;
+border: 7px solid #171717;
 font-weight: 700;
 
 }
