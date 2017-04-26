@@ -383,7 +383,7 @@ section,
     max-width: 1200px;
 }
 .page-section{
-	padding:75px 0;    
+	padding:70px 0;    
 	display: block;
    /* overflow: hidden;*/
     position: relative;
@@ -2457,13 +2457,13 @@ p.tp-caption.button-block a{
 /******************************************************************************
   Portfolio / Work
 *******************************************************************************/
-.work-section .filter-menu .nav{
-    margin-top: 70px;
-    z-index: 999;
-    position: fixed;
-
+#works-nav .sticky-wrapper{
+   z-index:99999;
+   background: #fff;
+   margin-top: 0px;  
+   position: fixed;
+   width: 100%;
 }
-
 
 .work-section .nav li,
 .mixed-grid .nav li{
@@ -2561,11 +2561,11 @@ p.tp-caption.button-block a{
 }*/
 
 .grid-item:hover{
-    -moz-transform: scale(1.3);
-	-webkit-transform: scale(1.3);
-	-o-transform: scale(1.3);
-	-ms-transform: scale(1.3);
-	transform: scale(1.3);
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
     opacity: 1;
     transition: all 0.3s ease-out 0s;
      border:none !important;
@@ -3915,7 +3915,7 @@ hr,
 	box-shadow:none;
 }
 .mixed-grid .nav.black li {
-background-color: #7f7f7f;
+color: #000;
 background-color: #bda875;
 
 }
