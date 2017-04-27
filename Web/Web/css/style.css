@@ -3561,7 +3561,7 @@ p.tp-caption.button-block a{
 /* Masonry With Gap */
 
 .pad.mixed-grid{
-	margin:2px -10px;
+	margin:-7px -10px;
   
 }
 .pad.mixed-grid .grid-item{
@@ -3923,7 +3923,9 @@ background-color: #bda875;
 background-color: #000;
 border: 7px solid #171717;
 font-weight: 700;
-
+}
+.mixed-grid .nav.black li.active:hover{
+color:#f1f1f1;
 }
 .border-tb{	
     border-bottom: 1px solid #000000;
