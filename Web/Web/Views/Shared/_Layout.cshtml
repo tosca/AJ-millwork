@@ -141,7 +141,7 @@
 
             revapi = jQuery('.tp-banner').revolution(
              {
-                 delay: 9000,
+                 delay: 7000,
                  startwidth: 1170,
                  startheight: 700,
                  hideThumbs: 10,
@@ -154,10 +154,11 @@
     </script>
 
     <script type="text/javascript">
-
-		$(document).ready(function(){
-    $('.venobox').venobox();
-});
+        $(document).ready(function(){
+            $('.venobox').venobox({
+                numeratio: true
+            });
+        });
     </script>
 
 

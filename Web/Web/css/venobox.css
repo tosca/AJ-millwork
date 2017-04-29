@@ -247,14 +247,14 @@ body{
     position: fixed;
     top: -1px;
     left: 0;
-    height: 60px;
+    height: 44px;
     display: block;
-    color: #121212;
+    color: #000;
     overflow: hidden;
-    line-height: 39px;
-    font-size: 32px;
+    line-height: 22px;
+    font-size: 30px;
     padding: 12px 10px;
-    background: #fff;
+    background: #bda875;
     display: none;
     font-weight: 200;
 }

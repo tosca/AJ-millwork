@@ -795,7 +795,7 @@ border-taupe{
     border:7px solid #bda875;
 }
 .border3{
-	border:0px solid #000000;
+	border:2px solid #000000;
     
 }
 
@@ -2460,9 +2460,11 @@ p.tp-caption.button-block a{
 #works-nav .sticky-wrapper{
    z-index:99999;
    background: #fff;
-   margin-top: 0px;  
+   margin-top: 0px;
+   left:0;  
    position: fixed;
    width: 100%;
+   padding: 10px 0;
 }
 
 .work-section .nav li,
@@ -3917,6 +3919,7 @@ hr,
 .mixed-grid .nav.black li {
 color: #000;
 background-color: #bda875;
+min-width: 112px;
 
 }
 .mixed-grid .nav.black li.active {
