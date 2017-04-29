@@ -249,12 +249,12 @@ body{
     left: 0;
     height: 44px;
     display: block;
-    color: #000;
+    color: #fff;
     overflow: hidden;
     line-height: 22px;
     font-size: 30px;
     padding: 12px 10px;
-    background: #bda875;
+    background: #000;
     display: none;
     font-weight: 200;
 }
