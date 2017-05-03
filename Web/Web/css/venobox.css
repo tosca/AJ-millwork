@@ -199,9 +199,9 @@ body{
     height: 40px;
     padding: 10px 20px 10px 0;
     display: block;
-    background: url(../img/venobox/close.gif) no-repeat #bda875;
+    background: url(../img/close.png) no-repeat;
     background-position:10px center;
-    color: #fff;
+    
     text-indent: -100px;
     overflow: hidden;
 }
@@ -218,11 +218,11 @@ body{
 }
 .vbox-prev{
     left: 10px;
-    background: url(../img/venobox/prev.gif) center center no-repeat;
+    background: url(../img/prev.png) center center no-repeat;
 }
 .vbox-next{
     right: 10px;
-    background: url(../img/venobox/next.gif) center center no-repeat;
+    background: url(../img/next.png) center center no-repeat;
 }
 
 .vbox-title{

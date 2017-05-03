@@ -38,6 +38,9 @@
   .owl-carousel .col-sm-12 {
     max-width: 750px;
   }
+ .top-sm-margin-200{
+	margin-top:200px;
+}
 }
 /******************************************************************************
   Max Width "767px"
@@ -198,6 +201,9 @@
 }
 .top-xs-margin-80{
 	margin-top:80px;
+}
+.top-xs-margin-200{
+	margin-top:200px;
 }
 .bottom-xs-margin-10{
 	margin-bottom:10px;

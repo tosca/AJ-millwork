@@ -3510,7 +3510,9 @@ p.tp-caption.button-block a{
 }
 
 /* Masonry Grid */
-
+.masonry-grid{
+    margin-top: 70px;
+}
 .grid-col-2 .grid-item ,
 .grid-col-2 .grid-sizer{
 	margin:7px 7px;
@@ -3538,7 +3540,7 @@ p.tp-caption.button-block a{
 }
 .grid-col-6 .grid-item,
 .grid-col-6 .grid-sizer {
-	margin:0px 0px;
+	margin:50px 0px 0px 0px;
 	width:16%;
 }
 .pad.mixed-grid  .grid-col-6 .img-overlay{
@@ -4030,6 +4032,7 @@ color:#f1f1f1;
 .margin-80{
 	margin:80px;
 }
+
 /* Top Padding */
 .top-pad-0{
 	padding-top:0px;
@@ -4091,6 +4094,9 @@ color:#f1f1f1;
 }
 .top-margin-80{
 	margin-top:80px;
+}
+.top-margin-110{
+	margin-top:110px;
 }
 /* Bottom Padding */
 .bottom-pad-0{
