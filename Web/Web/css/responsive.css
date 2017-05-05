@@ -39,10 +39,10 @@
     max-width: 750px;
   }
   #works-nav .sticky-wrapper{
-      margin-top: 40px;
+    /*  margin-top: 40px;*/
   }
  .top-sm-margin-port{
-	margin-top:140px;
+	margin-top: 110px;
 }
 }
 /******************************************************************************
@@ -206,7 +206,7 @@
 	margin-top:80px;
 }
 .top-xs-margin-portfolio{
-	margin-top:150px;
+	margin-top:110px;
 }
 .bottom-xs-margin-10{
 	margin-bottom:10px;
