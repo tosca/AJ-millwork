@@ -334,9 +334,6 @@ a:focus{
 .section-title.text-left h1{
  text-align:left;
 }
-
-
-
 .section-title.text-left h1:before ,
 .section-title.text-left h2:before{
     left: 0;
@@ -348,6 +345,11 @@ a:focus{
 .title i{
 	margin-right:7px;
 }
+/*****  Designer page ******/
+.series-slide{
+    margin: 40px;
+}
+
 /* Layout */
 section,
 .footer-widget,
