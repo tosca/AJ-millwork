@@ -40,7 +40,7 @@ namespace Web
             routes.MapRoute(
              "Contact",
              "Contact",
-             new { controller = "Shared", action = "Layout#Contact" }
+             new { controller = "Home", action = "Contact" }
              );
 
             routes.MapRoute(

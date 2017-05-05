@@ -130,7 +130,6 @@ ul.dropdown-menu.right{
 a, a:hover{	
 	-webkit-transition: all 350ms ease-in-out 0s;
 	   -moz-transition: all 350ms ease-in-out 0s;
-	    -ms-transition: all 350ms ease-in-out 0s;
 	     -o-transition: all 350ms ease-in-out 0s;
 	        transition: all 350ms ease-in-out 0s;
 			opacity: 1;
@@ -618,7 +617,7 @@ header .is-sticky  .sticky-dark-to-light  .navbar-form input {
 	right: 0;
 	left: 0;
 	top: 0;
-	z-index: 1;
+	/*z-index: 1;*/
 }
 .transparent-header .sticky-wrapper.is-sticky .navbar {
 	background-color: #000;

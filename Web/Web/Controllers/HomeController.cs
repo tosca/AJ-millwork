@@ -34,21 +34,19 @@ namespace Web.Controllers
         [HttpGet]
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+
 
             return View();
         }
 
 
-        public ActionResult ContactSubmited()
-        {
+     //   public ActionResult ContactSubmited()
+     //   {
 
-            var result = new FilePathResult("~/Views/Home/AJMillwork.html", "text/html");
-            return result;
+      //      var result = new FilePathResult("~/Views/Home/AJMillwork.html", "text/html");
+      //      return result;
 
-        }
-
-
+     //   }
 
 
     }

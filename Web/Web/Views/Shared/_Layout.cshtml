@@ -8,29 +8,23 @@
     <meta name="author" content="tosca ragnini - prairiepathconsulting.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="~/favicon.ico" />
-  <!--  <link rel="icon" type="image/png" href="~/favicon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/touchicons/apple-touch-icon-57-precomposed">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/touchicons/apple-touch-icon-114-precomposed">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/touchicons/apple-touch-icon-72-precomposed">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/touchicons/apple-touch-icon-144-precomposed">-->
+    <link rel="icon" type="image/png" href="~/favicon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="~/apple-touch-icon-114-precomposed">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72-precomposed">
+     <!-- <link rel="apple-touch-icon" sizes="57x57" href="/images/touchicons/apple-touch-icon-57-precomposed">
+     <link rel="apple-touch-icon" sizes="144x144" href="/assets/touchicons/apple-touch-icon-144-precomposed">-->
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans:400" rel="stylesheet">
-   <!-- <link href='~/css/font-awesome.min.css' rel='stylesheet' type='text/css' />-->
     <link href="~/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/hover-dropdown-menu.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="~/rs-plugin/css/settings.css" media="screen" />
     <link href="~/css/animate.min.css" rel="stylesheet" />
     <link href="~/css/venobox.css" rel="stylesheet" media="screen" />
- <!--   <link href="~/css/owl/owl.carousel.css" rel="stylesheet" />
-    <link href="~/css/owl/owl.theme.css" rel="stylesheet" />
-    <link href="~/css/owl/owl.transitions.css" rel="stylesheet" />-->
     <link href="~/css/prettyPhoto.css" rel="stylesheet" />
     <link href="~/css/style.css" rel="stylesheet" />
     <link href="~/css/responsive.css" rel="stylesheet" />
-    <link href="~/css/color.css" rel="stylesheet" />
 </head>   
 <body>
     <div id="page">
-
         <div class="transparent-header light">
             <header id="sticker" class="sticky-wrapper sticky-navigation">
                 <div class="sticky-menu relative">
@@ -64,7 +58,7 @@
                                                 <a href="~/Designer">Designer</a>
                                             </li>
                                             <li class="mega-menu">
-                                                <a href="~/Designer#Contact">Contact</a>
+                                                <a href="~/Contact">Contact</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -77,39 +71,16 @@
         </div>
     </div>
 
-    <div class="container body-content">
-       
-        @RenderBody()
-    
-        
-             <section id="Contact" class="bg-black">     
-               
-                    <div class="row">
-                        <div class="col-md-6 contact-ask img-responsive">
-                            <div class="ask-us">
-                                <h4 class="text-color text-center">Contact us about your project</h4>
-                                <hr class="white" />
-                                <h4 class="white text-center">630-659-7574</h4>
-                                <h4 class="text-center">
-                                    <a class="text-color" href="contact@a-jmillwork.com">contact@a-jmillwork.com</a>
-                                </h4>
-                                <hr class="white" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="contact-form img-responsive">
-                            
-                          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSco8jJYOlVA_ZfAO6R18pkHaUBaPQPrV4hHeKV15KQSppVQ8Q/viewform?embedded=true&amp;bc=transparent" width="100%" height="1030" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <div class="body-content">
 
-                            </div>
-                        </div>
-                    </div>
-               
-            </section>
+        @RenderBody()
+
+    </div>
+            
         <footer>
             <p class="text-center">&copy; @DateTime.Now.Year - AJ Millwork, Inc.</p>
         </footer>
-    </div>
+   
 
    @Scripts.Render("~/bundles/jquery")
    @Scripts.Render("~/bundles/bootstrap")
