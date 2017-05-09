@@ -400,9 +400,7 @@ li.search-dropdown a {
     padding: 18px;
 	-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.176);
 	   -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.176);
-	    -ms-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.176);
-	     -o-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.176);
-	        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.176);
+	       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.176);
 }
 .mega-menu h6.title {
     font-size: 13px;
@@ -1053,7 +1051,6 @@ header .navbar-collapse{
 		opacity: 0;
 		-webkit-transition: all 0.9s ease-in-out 0s;
 		   -moz-transition: all  0.9s ease-in-out 0s;
-			-ms-transition: all  0.9s ease-in-out 0s;
 			 -o-transition: all  0.9s ease-in-out 0s;
 				transition: all  0.9s ease-in-out 0s;
 	}

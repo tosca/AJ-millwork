@@ -10,6 +10,7 @@ namespace Web
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
+                        "~/js/hover-dropdown-menu.js",
                         "~/js/jquery.hover-dropdown-menu-addon.js",
                         "~/js/jquery.easing.1.3.js",
                         "~/js/jquery.sticky.js"));
@@ -25,7 +26,6 @@ namespace Web
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js",
-                      "~/js/hover-dropdown-menu.js",
                       "~/js/equalheights.js",
                       "~/js/equalheights-init.js",
                       "~/js/jquery.mixitup.min.js",
