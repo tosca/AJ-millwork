@@ -178,6 +178,10 @@
     <Content Include="img\ajlogo-sm.png" />
     <Content Include="img\ajlogo-words.png" />
     <Content Include="img\ajLogo.png" />
+    <Content Include="img\bath\bath-40.jpg" />
+    <Content Include="img\bath\bath-41.jpg" />
+    <Content Include="img\bath\bath-42.jpg" />
+    <Content Include="img\bath\bath-43.jpg" />
     <Content Include="img\close.png" />
     <Content Include="img\designer\stair-01.jpg" />
     <Content Include="img\door\door-17.jpg" />
@@ -186,6 +190,7 @@
     <Content Include="img\door\door-20.jpg" />
     <Content Include="img\door\door-21.jpg" />
     <Content Include="img\door\door-22.jpg" />
+    <Content Include="img\door\door-23.jpg" />
     <Content Include="img\entertain\basement-03.jpg" />
     <Content Include="img\entertain\basement-18.jpg" />
     <Content Include="img\entertain\basement-06.jpg" />

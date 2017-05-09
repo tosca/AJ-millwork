@@ -175,7 +175,7 @@ h6 {
 hr{
   border: 0;
   border-top: 1px solid #e1e1e1;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 2px solid #bda875;
   border-bottom: 0 none;
 }
 hr.white{
@@ -3265,7 +3265,7 @@ section,
 .panel-group .panel .panel-heading > .panel-title > a{
 	border-bottom:0;
 }
-hr,
+
 .special-feature .s-feature-box,
 .selectBox, .form-control,
 #footer .copyright,
