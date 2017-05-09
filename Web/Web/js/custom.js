@@ -216,7 +216,7 @@ var appMaster = {
 	},
 	/* ---------------------	
 		Background Video 
-	/* --------------------- */
+	/* --------------------- 
 	backgroundVideo: function(){
         if (typeof $.fn.mb_YTPlayer != 'undefined' && $.isFunction($.fn
             .mb_YTPlayer)) {
@@ -275,10 +275,10 @@ var appMaster = {
                     .show();
             }
         }
-    },
+    },*/
 	/* ---------------------	
 		Contact Form  
-	/* --------------------- */
+	/* --------------------- 
 	simplecontactForm: function(){	
 		if ( $( "#contactform" ).length !== 0 ) {
 		$('#contactform').bootstrapValidator({
@@ -359,7 +359,7 @@ var appMaster = {
                 .attr("disabled", "disabled");	
 
         }
-	},
+	},*/
 	/* --------------------------------------------
 	Career Form
 	-------------------------------------------- */	
@@ -1096,9 +1096,6 @@ $(document).ready(function() {
 	appMaster.parallaxBg();
 	appMaster.portfolioFilter();
 	appMaster.prettyPhoto();
-	appMaster.backgroundVideo();
-	appMaster.simplecontactForm();
-	appMaster.careersform();
 	appMaster.subscribeForm();
 	appMaster.navMenu();
 	appMaster.typedSlider();
