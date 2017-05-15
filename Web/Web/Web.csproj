@@ -225,6 +225,12 @@
     <Content Include="img\designer\design-51.jpg" />
     <Content Include="img\designer\design-52.jpg" />
     <Content Include="img\designer\design-53.jpg" />
+    <Content Include="img\designer\design-54.jpg" />
+    <Content Include="img\designer\design-55.jpg" />
+    <Content Include="img\designer\design-56.jpg" />
+    <Content Include="img\designer\design-57.jpg" />
+    <Content Include="img\designer\design-58.jpg" />
+    <Content Include="img\designer\design-59.jpg" />
     <Content Include="img\designer\design-60.jpg" />
     <Content Include="img\designer\design-61.jpg" />
     <Content Include="img\designer\design-62.jpg" />
@@ -234,6 +240,8 @@
     <Content Include="img\designer\design-66.jpg" />
     <Content Include="img\designer\design-67.jpg" />
     <Content Include="img\designer\design-68.jpg" />
+    <Content Include="img\designer\design-70.jpg" />
+    <Content Include="img\designer\design-71.jpg" />
     <Content Include="img\door\door-17.jpg" />
     <Content Include="img\door\door-18.jpg" />
     <Content Include="img\door\door-19.jpg" />
