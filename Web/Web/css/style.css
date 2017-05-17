@@ -1,6 +1,6 @@
 /*									
 1. GLOBAL STYLES
-	- Heading
+	- Headinggly
 	- List Style
 	- Links
 	- Positions
@@ -154,8 +154,8 @@ h5 {
   text-transform:capitalize;
 }
 h6 {
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 14px;
+  line-height: 24px;
   font-weight: 500;
  /*text-transform:capitalize;*/ 
 }
@@ -1246,6 +1246,7 @@ i,
     font-size: 18px;
 }
 .tparrows { 
+    visibility: hidden;
 -webkit-border-radius: 50%;
 border-radius:  50%;
  /*background: rgba(0, 0, 0, 0.3) !important;*/
@@ -1338,10 +1339,12 @@ p.tp-caption.button-block a{
   height: 0px !important;
 }
 .tp-bullets.simplebullets.navbar {
+    visibility: hidden;
   height: 35px;
   padding: 0;
 }
 .slider.rs-slider .tp-bullets.simplebullets .bullet {
+    visibility: hidden;
   background: #fff;
   background: rgba(255,255,255,.5);
   -webkit-border-radius: 7px;
@@ -1967,7 +1970,7 @@ p.tp-caption.button-block a{
   margin: 6px 0 0;
 }
 .features-list {
-	padding:20px 20px 20px 15px;
+	padding:0px 20px 20px 15px;
 }
 .features-list-left {
 	text-align:left;
@@ -2999,7 +3002,6 @@ a.black,
 }
 body,
 section,
-.gray-bg i,
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:focus, 
 .navbar-default .navbar-nav > .open > a:hover, 
@@ -3085,6 +3087,9 @@ color:#f1f1f1;
 /******************************************************************************
 							Space Adjustments
 *******************************************************************************/
+.glyphicon {
+  font-size: 20px;
+}
 .no-pad{
 	padding:0;
 }
