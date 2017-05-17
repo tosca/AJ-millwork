@@ -337,6 +337,7 @@
     <Content Include="img\kitchen\modernKitchen.jpg" />
     <Content Include="img\next.png" />
     <Content Include="img\prev.png" />
+    <Content Include="img\slider\slide-03.jpg" />
     <Content Include="img\slider\slide-20.jpg" />
     <Content Include="img\slider\slide-21.jpg" />
     <Content Include="img\slider\slide-22.jpg" />
