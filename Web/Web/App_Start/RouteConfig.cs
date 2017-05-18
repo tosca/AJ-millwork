@@ -44,6 +44,12 @@ namespace Web
              );
 
             routes.MapRoute(
+            "Designer-Furniture",
+            "Contact",
+            new { controller = "Home", action = "DesignerFurniture" }
+            );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "AJMillwork", id = UrlParameter.Optional }

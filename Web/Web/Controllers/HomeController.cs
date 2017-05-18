@@ -28,10 +28,13 @@ namespace Web.Controllers
             return View();
         }
 
-  
+        public ActionResult DesignerFurniture()
+        {
+            return View();
+        }
 
 
-        [HttpGet]
+        //    [HttpGet]
         public ActionResult Contact()
         {
 

@@ -54,32 +54,8 @@
 	- Contact Form
 	- Sitemap
 4. SIDEBAR	
-	- Tags	
-	- Social Feed Widget
-	- Shop Widgets
-	- Poll
-	- Price Range Filter
-	- Widget
-	- Newsletter
-	- Sticky Sidebar
 5. PAGES
 	- Service Time-line	
-	
-	- Timeline Left side Bar
-
-	- Event page
-		- Schedule Section
-		- Schedule panel-collapse
-		- Faq
-	
-	
-	- spa
-	- Wedding
-	- Real Estate
-	- Motor Page
-	- Mail chimp
-	- Shopping Cart
-		- Zoom Product
 	- Masonry Grid
 	- Hosting Page
 6. Footer
@@ -98,8 +74,7 @@
 		- Top & Bottom Padding
 		- Top & Bottom Margin
 	- Item Box
-	- Carousel Custom height 
-	
+	- Carousel Custom height 	
 /******************************************************************************
   Global Style 
 *******************************************************************************/
@@ -475,6 +450,16 @@ color:#ffffff;
 }
 .visible{
 	visibility:visible;
+}
+#design-furniture .fade-left{
+    left: -80px;
+    opacity: 1;
+    position: relative;
+}
+.fade-right {
+    right: -80px;
+    opacity: 1;
+    position: relative;
 }
 
 /* Border */
@@ -2649,54 +2634,6 @@ p.tp-caption.button-block a{
 .grid-content h1{
 	text-transform:uppercase;
 	font-weight:200;
-}
-/*Bakery Menu*/
-.bakery-menu {
-    border: 1px solid #ddd;
-}
-.bakery-menu .nav-tabs > li {
-    width: 100%;
-	border-bottom:1px solid #ccc;
-}
-.bakery-menu .nav-tabs > li > a{
-	padding: 20px 20px;
-	text-align:center;
-	font-size: 18px;
-	font-weight:700;
-	border:none;
-	border-right:1px solid #ddd;
-	border-radius:0;
-	-ms-border-radius:0;
-	-moz-border-radius:0;
-	-o-border-radius:0;
-	-webkit-border-radius:0;
-	margin-right:0;
-	transition:0.35s all ease-in-out;
-	-moz-transition:0.35s all ease-in-out;
-	-ms-transition:0.35s all ease-in-out;
-	-o-transition:0.35s all ease-in-out;
-	-webkit-transition:0.35s all ease-in-out;
-}
-.bakery-menu .nav-tabs > li:last-child > a{
-	border-right:none;
-}
-.bakery-menu .nav-tabs > li > a > i{
-	display:block;
-}
-.bakery-menu .nav-tabs > li.active > a, 
-.bakery-menu .nav-tabs > li.active > a:focus, 
-.bakery-menu .nav-tabs > li.active > a:hover{
-	border:none;
-	color: #ffffff;
-    text-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-.bakery-menu .tab-content > .tab-pane{
-	padding-top:0;
-}
-.bakery-menu .tab-content{
-	background:#fff;
-	margin:0;
-	padding:35px 0 0;
 }
 
 /* Zoom Product */
