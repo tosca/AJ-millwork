@@ -352,13 +352,17 @@ section,
 }
 .page-section{
     background-color: #ffffff;
-	padding:70px 0 0 10px;    
+	padding:70px 15px 0 15px;    
 	display: block;
    overflow: hidden;
     position: relative;
     width: 100%;
 }
-
+@media (min-width: 845px) and (max-width: 1089px){
+#work .page-section{
+  padding: 130px 15px 0 15px;  
+  }
+}
 /* z-index */
 .z-index-9{
 	z-index:9;
@@ -2994,7 +2998,7 @@ section,
 .mixed-grid .nav.black li {
 color: #000;
 background-color: #bda875;
-min-width: 112px;
+min-width: 90px;
 
 }
 .mixed-grid .nav.black li.active {

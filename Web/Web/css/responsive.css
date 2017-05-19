@@ -45,6 +45,24 @@
 	margin-top: 110px;
 }
 }
+/**************************************
+    max-width 1098  min-width 845   
+************************************
+@media (max-width: 1098px) and (min-width: 845px) {
+.page-section{
+  padding: 130px 15px 0 15px;  
+  }
+}*/
+@media only screen and (max-width: 991px){
+.page-section{
+  padding: 130px 15px 0 15px;  
+  }
+}
+@media only screen and (max-width: 767px){
+.page-section{
+  padding: 70px 15px 0 15px;  
+  }
+}
 /******************************************************************************
   Max Width "767px"
 *******************************************************************************/
@@ -459,7 +477,7 @@
 }*/
 .design-item-lt {  
     position: relative;
-    animation: design-item-lt 3s ease 1s;
+    animation: design-item-lt 2s ease 1s;
     animation-fill-mode: backwards;
 }
 @-webkit-keyframes design-item-lt {
@@ -474,17 +492,17 @@
 }
 .design-item-rt {  
     position: relative;
-    animation: design-item-rt 3s ease 1s;
+    animation: design-item-rt 2s ease 1s;
     animation-fill-mode: forwards;
 }
 @-webkit-keyframes design-item-rt {
-    0%  {opacity:0; right:33%; top:0px;}
-    100% {opacity:1; left:66%; top:0px;}
+    0%  {opacity:0; left:33%; top:0px;}
+    100% {opacity:1; right:66%; top:0px;}
 
 }
 @keyframes design-item-rt {
-    0%  {opacity:0; right:33%; top:0px;}
-    100% {opacity:1; left:66%; top:0px;}
+    0%  {opacity:0; left:33%; top:0px;}
+    100% {opacity:1; right:66%; top:0px;}
 
 }
  /******Max Width "767px"****************/
