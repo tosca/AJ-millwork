@@ -457,24 +457,39 @@
     animation-timing-function: ease;
     animation-delay: 0s;
 }*/
-.design-items {  
+.design-item-lt {  
     position: relative;
-    animation: design-items 3s ease;
+    animation: design-item-lt 3s ease 1s;
     animation-fill-mode: backwards;
 }
-@-webkit-keyframes design-items {
+@-webkit-keyframes design-item-lt {
     0%  {opacity:0; left:33%; top:0px;}
-    100% {opacity:1; right:50%; top:0px;}
+    100% {opacity:1; right:66%; top:0px;}
 
 }
-@keyframes design-items {
+@keyframes design-item-lt {
     0%  {opacity:0; left:33%; top:0px;}
-    100% {opacity:1; right:50%; top:0px;}
+    100% {opacity:1; right:66%; top:0px;}
+
+}
+.design-item-rt {  
+    position: relative;
+    animation: design-item-rt 3s ease 1s;
+    animation-fill-mode: forwards;
+}
+@-webkit-keyframes design-item-rt {
+    0%  {opacity:0; right:33%; top:0px;}
+    100% {opacity:1; left:66%; top:0px;}
+
+}
+@keyframes design-item-rt {
+    0%  {opacity:0; right:33%; top:0px;}
+    100% {opacity:1; left:66%; top:0px;}
 
 }
  /******Max Width "767px"****************/
 @media (max-width: 767px) {
-    .design-furniture {
+    .design-item-it,.design-item-rt  {
      animation: none;   
     }
 }
