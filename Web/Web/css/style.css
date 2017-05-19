@@ -490,8 +490,11 @@ border-taupe{
     border:7px solid #bda875;
 }
 .border3{
-	border:2px solid #000000;
-    
+	border:2px solid #000000;    
+}
+.border4{
+	border:25px solid rgba(255,255,255,1);
+    outline: 15px solid #000000;    
 }
 
 /* Page Loader */
@@ -2698,7 +2701,10 @@ p.tp-caption.button-block a{
 	padding:8px;
     padding:17px;
 }
-
+.pad-plus .grid-item{
+    padding:50px;
+}
+.margin-
 .pad.mixed-grid .img-overlay{
 	margin:25px;
   
