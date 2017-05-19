@@ -448,23 +448,13 @@ color:#ffffff;
 	margin:0;
 }
 /* Animation */
-
 .animated{
 	visibility:hidden;
 }
 .visible{
 	visibility:visible;
 }
-#design-furniture .fade-left{
-    left: -80px;
-    opacity: 1;
-    position: relative;
-}
-.fade-right {
-    right: -80px;
-    opacity: 1;
-    position: relative;
-}
+
 
 /* Border */
 * {

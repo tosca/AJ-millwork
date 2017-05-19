@@ -33,12 +33,15 @@ namespace Web.Controllers
             return View();
         }
 
+        public ActionResult DesignerStair()
+        {
+            return View();
+        }
+
 
         //    [HttpGet]
         public ActionResult Contact()
         {
-
-
             return View();
         }
 

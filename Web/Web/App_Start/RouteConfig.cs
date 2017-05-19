@@ -44,9 +44,15 @@ namespace Web
              );
 
             routes.MapRoute(
-            "Designer-Furniture",
-            "Contact",
+            "DesignerFurniture",
+            "DesignerFurniture",
             new { controller = "Home", action = "DesignerFurniture" }
+            );
+
+            routes.MapRoute(
+            "DesignerStair",
+            "DesignerStair",
+            new { controller = "Home", action = "DesignerStair" }
             );
 
             routes.MapRoute(
