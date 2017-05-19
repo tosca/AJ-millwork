@@ -496,7 +496,24 @@ border-taupe{
 	border:25px solid rgba(255,255,255,1);
     outline: 15px solid #000000;    
 }
+#goto-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 9999;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 3px;
+}
 
+#goto-top:hover {
+  background-color: #555;
+}
 /* Page Loader */
 #pageloader {
 	background-color:#FFFFFF;

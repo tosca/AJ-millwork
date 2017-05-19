@@ -174,7 +174,6 @@
     <Content Include="css\venobox.css" />
     <Content Include="favicon.ico" />
     <Content Include="favicon.png" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\ajlogo-sm.png" />
     <Content Include="img\ajlogo-words.png" />
@@ -483,9 +482,6 @@
     <Content Include="rs-plugin\font\revicons.woff" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

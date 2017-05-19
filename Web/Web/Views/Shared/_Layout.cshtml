@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans:400" rel="stylesheet">
 </head>   
 <body>
+  <button onclick="topFunction()" id="goto-top" title="Go to top">Top</button>
     <div id="page">
         <div class="transparent-header light">
             <header id="sticker" class="sticky-wrapper sticky-navigation">
@@ -73,12 +74,6 @@
        
        
         <footer class="tb-pad-20">
-            <div class="text-right pad-30 page-scroll icons-circle i-3x">
-                <!-- Goto Top -->
-                <a href="#page" class="btn btn-black btn-sm">
-                    <i class="glyphicon glyphicon-arrow-up"></i>
-                </a>
-            </div>
             <p class="text-center text-color">&copy; @DateTime.Now.Year - AJ Millwork, Inc.</p>
         </footer>
     </div>
@@ -125,6 +120,24 @@
                 numeratio: true
             });
         });
+    </script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        document.getElementById("goto-top").style.display = "block";
+    } else {
+        document.getElementById("goto-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
     </script>
 
 
