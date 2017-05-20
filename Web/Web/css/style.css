@@ -149,16 +149,12 @@ h6 {
 }
 hr{
   border: 0;
-  border-top: 1px solid #e1e1e1;
   border-top: 2px solid #bda875;
   border-bottom: 0 none;
+  margin-top: 70px;
+  padding-bottom: 20px;
 }
-hr.white{
-  border: 0;
-  border-top: 1px solid #e1e1e1;
-  border-top: 1px solid rgba(255,255,255,1);
-  border-bottom: 0 none;
-}
+
 .highlight{
 	background:#FFC400;
 	padding:0 5px;
@@ -493,8 +489,16 @@ border-taupe{
 	border:2px solid #000000;    
 }
 .border4{
-	border:25px solid rgba(255,255,255,1);
-    outline: 15px solid #000000;    
+	border:50px solid rgba(255,255,255,1);
+    outline: 20px solid #000000;    
+}
+.border6{
+	border:20px solid rgba(255,255,255,1);
+    outline: 2px solid #000000;    
+}
+.mar-pad { 
+ margin:10px; 
+ padding:10px;
 }
 #goto-top {
   display: none;
