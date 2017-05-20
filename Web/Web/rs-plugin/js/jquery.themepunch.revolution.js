@@ -67,8 +67,8 @@
 
 					keyboardNavigation:"on",
 
-					touchenabled:"on",						// Enable Swipe Function : on/off
-					onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+					touchenabled:"off",						// Enable Swipe Function : on/off
+					onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
 
 
 					stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
@@ -1243,7 +1243,7 @@
 				try{
 					container.hammer().on('touch', function() {
 						container.addClass("hovered");
-						if (opt.onHoverStop=="on")
+						if (opt.onHoverStop=="off")
 							container.trigger('stoptimer');
 						clearTimeout(container.data('hideThumbs'));
 						bullets.removeClass("hidebullets");
@@ -1267,7 +1267,7 @@
 			} else {
 				bullets.hover(function() {
 				opt.overnav = true;
-				if (opt.onHoverStop=="on")
+				if (opt.onHoverStop=="off")
 					container.trigger('stoptimer');
 				bullets.addClass("hovered");
 				clearTimeout(container.data('hideThumbs'));
@@ -1288,7 +1288,7 @@
 
 				ca.hover(function() {
 					opt.overnav = true;
-					if (opt.onHoverStop=="on")
+					if (opt.onHoverStop=="off")
 						container.trigger('stoptimer');
 					bullets.addClass("hovered");
 					clearTimeout(container.data('hideThumbs'));
@@ -1306,7 +1306,7 @@
 
 				container.on('mouseenter', function() {
 					container.addClass("hovered");
-					if (opt.onHoverStop=="on")
+					if (opt.onHoverStop=="off")
 						container.trigger('stoptimer');
 					clearTimeout(container.data('hideThumbs'));
 					bullets.removeClass("hidebullets");
@@ -5605,7 +5605,7 @@
 					container.hover(
 						function() {
 
-							if (opt.onHoverStop=="on" && (!is_mobile())) {
+							if (opt.onHoverStop=="off" && (!is_mobile())) {
 								container.trigger('stoptimer');
 
 								container.trigger('revolution.slide.onpause');
