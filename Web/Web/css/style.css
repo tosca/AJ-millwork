@@ -151,8 +151,10 @@ hr{
   border: 0;
   border-top: 2px solid #bda875;
   border-bottom: 0 none;
-  margin-top: 70px;
+  margin-top: 90px;
   padding-bottom: 20px;
+  margin-bottom: 70px;
+
 }
 
 .highlight{
@@ -311,7 +313,7 @@ a:focus{
     margin-left: 0;
 }
 .title-description {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .title i{
 	margin-right:7px;
@@ -490,11 +492,11 @@ border-taupe{
 }
 .border4{
 	border:50px solid rgba(255,255,255,1);
-    outline: 20px solid #000000;    
+    outline: 25px solid #000000;    
 }
 .border6{
 	border:20px solid rgba(255,255,255,1);
-    outline: 2px solid #000000;    
+  /* outline: 2px solid #000000; */    
 }
 .mar-pad { 
  margin:10px; 
