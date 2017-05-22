@@ -26,7 +26,7 @@
 				// SET DEFAULT VALUES OF ITEM //
 				////////////////////////////////
 				var defaults = {
-					delay:9000,
+					delay:7000,
 					startheight:500,
 					startwidth:960,
 					fullScreenAlignForce:"off",
@@ -67,7 +67,7 @@
 
 					keyboardNavigation:"on",
 
-					touchenabled:"off",						// Enable Swipe Function : on/off
+					touchenabled:"on",						// Enable Swipe Function : on/off
 					onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
 
 

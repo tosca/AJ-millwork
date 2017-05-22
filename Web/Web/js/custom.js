@@ -330,32 +330,19 @@ $(document).ready(function() {
 	appMaster.pageLoader();
 	appMaster.navBar();
 	appMaster.toggleNav();
-	appMaster.owlCarousel();
-	appMaster.progressBar();
 	appMaster.dataAnimations();
 	appMaster.bgImage();
-	appMaster.funFactor();
+	//appMaster.funFactor();
 	appMaster.parallaxBg();
 	appMaster.portfolioFilter();
 	appMaster.prettyPhoto();
-	appMaster.subscribeForm();
 	appMaster.navMenu();
-	appMaster.typedSlider();
-	appMaster.videotextSlider();
-	appMaster.countDown();	
-	appMaster.socialPhotostream();	
-	appMaster.priceRange();	
-	appMaster.allCharts();	
+	appMaster.typedSlider();		
 	appMaster.masonryGrid();
 	appMaster.productZoom();
 	appMaster.sideNav();
 	appMaster.fullScreen();
 	appMaster.fancySelect();
-	appMaster.hostedVideo();
-	appMaster.gridRotator();
-	appMaster.datePicker();
-	appMaster.timePicker();
-	appMaster.sidebarSticky();
 	
 });	
 
@@ -530,11 +517,4 @@ var header = jQuery('#slider-section'),
 $(window).load(function() {
 	appMaster.hiddenFooter();	
 	appMaster.masonryGrid();
-});
-/* ------onHoverStop : off--------*/
-$.extend(theme.PluginRevolutionSlider.defaults, {
-    onHoverStop: 'off',
-    navigation: {
-        onHoverStop: 'off'
-    }
 });
