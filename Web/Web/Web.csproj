@@ -163,13 +163,8 @@
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\hover-dropdown-menu.css" />
-    <Content Include="css\kenburns.css" />
-    <Content Include="css\owl\owl.carousel.css" />
-    <Content Include="css\owl\owl.theme.css" />
-    <Content Include="css\owl\owl.transitions.css" />
     <Content Include="css\prettyPhoto.css" />
     <Content Include="css\responsive.css" />
-    <Content Include="css\revolution-slider.css" />
     <Content Include="css\style.css" />
     <Content Include="css\venobox.css" />
     <Content Include="favicon.ico" />
