@@ -87,6 +87,7 @@ body{
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   font-size:14px;
+  background-color: #000;
 /*  padding-top: 50px;*/
 }
 input,
@@ -240,6 +241,7 @@ a:focus{
 .body-content{
    margin:0 auto;
    background-color:#000;
+   height: 100%;
 
 }
 /* Positions */
@@ -350,7 +352,7 @@ section,
 }
 .page-section{
     background-color: #ffffff;
-	padding:70px 15px 0 15px;    
+	padding:80px 15px 0 15px;    
 	display: block;
    overflow: hidden;
     position: relative;
@@ -1326,11 +1328,17 @@ font-weight: 500;
   opacity: 1;
 }
 #main-slider h2 {
-	font-size: 48px !important;
+	font-size: 40px;
 	font-weight:500;
 	line-height: 56px;
 	margin: 0;
-    /*font-family: 'Open Sans', sans-serif;*/
+   }
+#main-slider description {
+	font-size: 32px !important;
+	font-weight:500;
+	line-height: 40px;
+	margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #main-slider .carousel-inner > .item > img{
@@ -2461,7 +2469,7 @@ a.black,
 .form-box{
 	background:rgba(0,0,0,.4);
 }
-body,
+
 section,
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:focus, 
@@ -2483,7 +2491,10 @@ section,
 .navbar .bg-white.hide-show-content{
 	background-color:rgba(0,0,0,.0);
     color:#222;
-   
+}
+body {
+    background-color: #000;
+    color: #fff;
 }
 .navbar-default .navbar-nav > li > a:focus, 
 .navbar-default .navbar-nav > li > a:hover {
