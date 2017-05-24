@@ -156,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="apple-touch-icon-114x114.png" />
+    <Content Include="apple-touch-icon-55x55.png" />
     <Content Include="apple-touch-icon-72x72.png" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.css" />
