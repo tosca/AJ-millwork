@@ -78,15 +78,14 @@
    @Scripts.Render("~/bundles/bootstrap")
 
     <script type="text/javascript">
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('.venobox').venobox({
-                numeratio: true
+                numeratio: true,
+                infinigall: true  // default: false
             });
         });
-      //  $('#design .venobox').venobox({
-      //      infinigall: true  // default: false
-       // });
     </script>
+
     <script type="text/javascript">
 window.onscroll = function() {scrollFunction()};
 
@@ -102,7 +101,7 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
- </script>
+    </script>
 
  @RenderSection("scripts", required: false)
 
